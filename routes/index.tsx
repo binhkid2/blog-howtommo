@@ -23,6 +23,7 @@ export default function Home(props: PageProps<Data>) {
     <>
      <HomeHeader />
      <main>
+      <h1>HELLO FROM BINKK</h1>
       <Container>
         <ul class="mt-16">
           {posts.map((post) => <PostPreview post={post} />)}
